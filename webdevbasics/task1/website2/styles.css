@@ -1,0 +1,52 @@
+.container-1{
+	display:  flex;
+	flex-directions: column;
+}
+.body {
+	background-color: gainsboro;
+}
+#message {
+	color:  dimgray;
+}
+.head {
+	margin: 0;
+	overflow:hidden
+}
+
+.top {
+	text-align: center;
+}
+
+.input {
+    display: block; 
+ 	width: 100%
+ }
+
+ #inputmessage {
+ 	height: 200px;
+ }
+
+#button {
+	background-color: lawngreen; /* Green */
+	text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    height:  40px;
+    color: white;
+    align-items: center;
+    margin:auto;
+    display:block;
+}
+
+
+#button:hover{
+	background-color: #3e8e41;
+	cursor: pointer ;
+}
+
+#button:active {
+  background-color: green;
+  box-shadow: 0 1px darkgreen;
+  transform: translateY(4px);
+}
