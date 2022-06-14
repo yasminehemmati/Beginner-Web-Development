@@ -29,7 +29,7 @@ min-height: 500px;
 #box-1 {
 	flex: 1;
 	background-color: plum;
-	font-size: :30px;
+	font-size: 30px;
 	order:  1;
 	text-indent: 15px;
 
